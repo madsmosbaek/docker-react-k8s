@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: client-pod
+  name: docker-react
   labels:
     component: web
 spec:
   containers:
     - name: client
-      image: stephengrider/multi-client
+      image: mempraqma/docker-react
       ports:
         - containerPort: 3000
