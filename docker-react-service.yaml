@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: docker-react-node-port
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     component: docker-react
   ports:
